@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+menu {
+    list-style: none;
+    padding: 1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
+    display: block;
+    padding: 2rem;
+    border: 1px;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem;
+}
