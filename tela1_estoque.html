@@ -1,33 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Sketch app restaurante - Estoque</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        
-        <header>
-            <img src="img/estoque.jpeg" alt="estoque">
-        </header>
+<head>
+    <title>Sketch app restaurante - Estoque</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tela1_estoque.css">
+</head>
+<body>
 
-        <main>
+<header>
+    <img src="img/estoque.jpeg" alt="estoque">
+</header>
+        <!--Essa página foi praticamente refeita. Sim, eu sei que não era para mudar o HTML, mas a forma que 
+        ele estava era meio incompátivel com a forma "certa" que ela deveria ser feita, pois não tinha muito como
+        fazer apenas com o HTML puro... (eu acho)-->
+<main>
+    
+    <section>
+        <div class="produto">
+            <span>Leites</span>
+            <div class="quantidade-container">
+                <button class="botao-quantidade">-</button>
+                <span>4</span>
+                <button class="botao-quantidade">+</button>
+            </div>
+        </div>
 
-            <ul>
-                <li>4 Leites</li>
-                <li>9 Tomates</li>
-                <li>12 Alfaces</li>
-                <li>5 Sais</li>
-            </ul>
+        <div class="produto">
+            <span>Tomates</span>
+            <div class="quantidade-container">
+                <button class="botao-quantidade">-</button>
+                <span>9</span>
+                <button class="botao-quantidade">+</button>
+            </div>
+        </div>
 
-            <a href="index.html">Retornar ao menu principal</a>
+        <div class="produto">
+            <span>Alfaces</span>
+            <div class="quantidade-container">
+                <button class="botao-quantidade">-</button>
+                <span>12</span>
+                <button class="botao-quantidade">+</button>
+            </div>
+        </div>
 
-        </main>
-     
-        <footer>
-            <br><address>
-                Desenvolvido pela <a href="mailto:empresaxyz@email.com">empresa XYZ</a>
-            </address>
-        </footer>
-        
-    </body>
+        <div class="produto">
+            <span>Sais</span>
+            <div class="quantidade-container">
+                <button class="botao-quantidade">-</button>
+                <span>5</span>
+                <button class="botao-quantidade">+</button>
+            </div>
+        </div>
+    </section>
+
+    <a href="index.html">Retornar ao menu principal</a>
+</main>
+
+<footer>
+    <br>
+    <address>
+        Desenvolvido pela <a class="footer-adicional" href="mailto:empresaxyz@email.com">empresa XYZ</a>
+    </address>
+</footer>
+
+</body>
 </html>
