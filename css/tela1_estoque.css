@@ -1,9 +1,3 @@
-/*
-    Todas as telas com tabelas são meio parecidas (propositalmente, está nos fluxos, então achei descenessário
-    criar um CSS individual para cada uma, porque provávelment eles iriam acabar todos iguais.... O mesmo vale para as telas de login
-*/
-
-
 body {
     display: flex;
     flex-direction: column;
@@ -43,24 +37,9 @@ input {
     margin-bottom: 1rem;
 }
 
-table {
-    width: auto;
-    border-collapse: collapse;
-    margin-bottom: 1rem;
-}
-
-table, th, td {
-    border: 2px solid #ddd; 
-}
-
-th, td {
-    padding: 0.8rem; 
-    text-align: left;
-}
-
 a {
-    display: inline-block;
-    padding: 0.5rem; 
+    display: block;
+    padding: 2rem;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     text-align: center;
@@ -76,3 +55,45 @@ footer {
     background: #eee;
 }
 
+.footer-adicional {
+
+    display: inline-block;
+    padding: 0.5rem; 
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 1rem;
+
+}
+
+.produto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+
+}
+
+.quantidade-container {
+
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+
+}
+
+.botao-quantidade {
+
+    margin: 0 0.2rem;
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    cursor: pointer;
+        
+}
