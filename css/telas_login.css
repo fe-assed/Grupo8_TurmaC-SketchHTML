@@ -38,7 +38,7 @@ input {
 }
 
 a {
-    display: block-inline;
+    display: inline-block;
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
