@@ -21,25 +21,9 @@ main {
     padding: 1rem;
 }
 
-form {
-    margin-bottom: 1rem;
-}
-
-label {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-input {
-    width: 100%;
-    padding: 1rem;
-    box-sizing: border-box;
-    margin-bottom: 1rem;
-}
-
 a {
-    display: block;
-    padding: 2rem;
+    display: inline-block;
+    padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     text-align: center;
