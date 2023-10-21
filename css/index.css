@@ -3,13 +3,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 header {
     text-align: center;
     padding: 1rem;
-    background: #eee;
+    background: #be2929;
 }
 
 main {
@@ -31,11 +31,11 @@ li {
 a {
     display: block;
     padding: 2rem;
-    border: 1px solid #ccc;
+    border: 1px solid #FA2017;
     border-radius: 0.5rem;
     text-align: center;
     text-decoration: none;
-    color: #333;
+    color: #222;
 }
 
 .footer-adicional {
@@ -46,7 +46,7 @@ a {
     border-radius: 0.5rem;
     text-align: center;
     text-decoration: none;
-    color: #333;
+    color: #222;
     margin-bottom: 1rem;
 
 }
@@ -55,5 +55,5 @@ footer {
     margin-top: auto;
     text-align: center;
     padding: 1rem;
-    background: #eee;
+    background: #be2929;
 }
